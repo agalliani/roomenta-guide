@@ -1,0 +1,39 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-11-11T22:52:54Z",
+  "id": "ita-guide-1.0.9",
+  "duration": 6,
+  "title": "Roomenta Web | HOW TO USE",
+  "authors": "agalliani",
+  "summary": "In this codelab, you'll learn about Roomenta!",
+  "source": "16szU24ZJDskqa9PvEsj3zTXSWNt7CX-WL8ZLChGc8o0",
+  "theme": "web",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "Web"
+  ],
+  "tags": [
+    "cds17",
+    "chrome-dev-summit-2016",
+    "devfest18",
+    "gdd17",
+    "io2016",
+    "io2017",
+    "io2018",
+    "io2019",
+    "jsconfeu",
+    "kiosk",
+    "pwa-dev-summit",
+    "pwa-roadshow",
+    "tag-web",
+    "typtwd17",
+    "web"
+  ],
+  "feedback": "https://wescrum.sorint.it/projects/roomenta/issues/new",
+  "url": "ita-guide-1.0.9"
+}
