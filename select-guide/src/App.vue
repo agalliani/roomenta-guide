@@ -2,8 +2,12 @@
   <div id="app">
     <div id="nav">
       <div id="a">
-        <router-link to="/eng"><img class="flag-icon" src="./assets/great-britain-48.png"/></router-link>
-        <router-link to="/ita"><img class="flag-icon" src="./assets/italy-48.png"/></router-link>
+        <router-link to="/eng"
+          ><img class="flag-icon" src="./assets/great-britain-48.png"
+        /></router-link>
+        <router-link to="/ita"
+          ><img class="flag-icon" src="./assets/italy-48.png"
+        /></router-link>
       </div>
     </div>
     <router-view />
@@ -21,7 +25,7 @@
 
 #nav {
   left: 50%;
-    top: 1.5%;
+  top: 1.5%;
 
   position: absolute;
   z-index: 1001;
@@ -38,8 +42,8 @@
   color: #42b983;
 }
 
-.flag-icon{
-    height: 4.5vh;
+.flag-icon {
+  height: 4.5vh;
 }
 
 @media screen and (max-width: 768px) {
