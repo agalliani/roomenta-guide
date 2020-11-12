@@ -1,6 +1,6 @@
 # select-guide
 
-`App.vue` calls via router-link those pages:
+`App.vue` calls via router-link these pages:
 - `English.vue`
 - `Italian.vue`
 
