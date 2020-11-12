@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <div id="a">
+        <router-link to="/eng"><img class="flag-icon" src="./assets/great-britain-48.png"/></router-link>
+        <router-link to="/ita"><img class="flag-icon" src="./assets/italy-48.png"/></router-link>
+      </div>
     </div>
     <router-view />
   </div>
@@ -18,18 +20,40 @@
 }
 
 #nav {
-  right: 50%;
-  top: 10%;
-  position: fixed;
-  z-index: 2;
+  left: 50%;
+    top: 1.5%;
+
+  position: absolute;
+  z-index: 1001;
 }
 
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  position: relative;
+  left: -50%;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.flag-icon{
+    height: 4.5vh;
+}
+
+@media screen and (max-width: 768px) {
+  #nav {
+    top: 1.5%;
+    left: 75%;
+    position: absolute;
+    z-index: 1001;
+  }
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    position: relative;
+    left: -50%;
+  }
 }
 </style>

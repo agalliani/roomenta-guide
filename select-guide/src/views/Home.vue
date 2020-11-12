@@ -1,17 +1,544 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="guide">
+    <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+    <google-codelab
+      codelab-gaid=""
+      id="eng-guide-1.0.9"
+      title="Roomenta Web"
+      environment="web"
+      feedback-link="https://wescrum.sorint.it/projects/roomenta/issues/new"
+    >
+      <google-codelab-step label="Get Started" duration="1">
+          <google-codelab-about
+          ><div class="codelab-title">
+            <div class="token">Roomenta Web | HOW TO USE</div>
+          </div>
+          <div class="about-card">
+            <h2 class="title">About this guide</h2>
+            <div class="last-updated">
+              <i class="material-icons">subject</i>Last updated Nov 16, 2020
+            </div>
+            <div class="authors">
+              <i class="material-icons">account_circle</i>Sircle Universe
+            </div>
+          </div></google-codelab-about
+        >
+
+        <p class="image-container">
+          <img style="width: 601.70px" src="../guide/aa03106240ab1897.png" />
+        </p>
+        <p>
+          Roomenta is a web app designed and developed to facilitate the access
+          management to a company&#39;s workspace, but it can be easily adapted
+          to any other scenario.
+        </p>
+        <h2 is-upgraded><strong>Reach Roomenta</strong></h2>
+        <p>
+          In order to use Roomenta you need to find the following link:
+          <a href="https://roomenta.sorint.it/" target="_blank">Roomenta</a>.
+          The access can be done through the classic Sorint&#39;s login form as
+          for all the other applications use.
+        </p>
+        <p>This is how the main screen looks like:</p>
+        <p class="image-container">
+          <img style="width: 601.70px" src="../guide/fe18f960b1710adb.png" />
+        </p>
+        <h2 is-upgraded><strong>Parts Related to User Interaction:</strong></h2>
+        <ul>
+          <li><strong> Top Bar</strong></li>
+          <li><strong> </strong>First column:<strong> Offices</strong></li>
+          <li><strong> </strong>Second column:<strong> Calendar</strong></li>
+          <li><strong> </strong>Third column:<strong> Schedules</strong></li>
+          <li>
+            <strong> </strong>Fourth column:<strong> My Reservations</strong>
+          </li>
+        </ul>
+      </google-codelab-step>
+
+      <google-codelab-step label="Top Bar" duration="1">
+        <p class="image-container">
+          <img style="width: 601.70px" src="../guide/bdffb87742f82f94.png" />
+        </p>
+        <h2 is-upgraded><strong>Change Theme</strong></h2>
+        <p>
+          At the left end of the Top Bar, you can find a switch button that
+          allows you to change the theme of the application from dark to light.
+        </p>
+        <p class="image-container">
+          <img style="width: 242.50px" src="../guide/c354d9530d722e66.png" />
+        </p>
+        <h3 is-upgraded>Dark Theme</h3>
+        <p class="image-container">
+          <img style="width: 566.93px" src="../guide/fffc38ffd93e62c3.png" />
+        </p>
+        <h3 is-upgraded>Light Theme</h3>
+        <p class="image-container">
+          <img style="width: 566.93px" src="../guide/fe18f960b1710adb.png" />
+        </p>
+        <h2 is-upgraded><strong>Info</strong></h2>
+        <p>
+          Next to the switch button there is another button which, when clicked,
+          opens a pop-up message.
+        </p>
+        <p class="image-container">
+          <img style="width: 340.16px" src="../guide/3a28e0f8147f9d0e.png" />
+        </p>
+        <p>
+          The pop-up message shows important information regarding the ability
+          to access:
+        </p>
+        <ul>
+          <li>
+            <strong>Roomenta Guide</strong>: the guide that you are actually
+            reading now.
+          </li>
+          <li>
+            <strong>The Emergency Taskforce:</strong> by opening this link it is
+            possible to get assistance regarding the use of the application (not
+            technical bug). A blank e-mail is created, with
+            <em>Emergency Taskforce</em> as sender.
+          </li>
+          <li>
+            <strong>Give Us Your Feedback:</strong> directly redirect to
+            WeScrum, where it is possible to create a card in order to indicate
+            to the Developers a bug or a change request.
+          </li>
+        </ul>
+        <aside class="warning">
+          <p>
+            <strong>Caution: </strong><em>Technical bug</em> and
+            <em>assistance</em> cover two different issues.
+          </p>
+          <p>
+            Example #1. Write an e-mail to
+            <strong>Emergency Taskforce</strong> if you need assistance when
+            booking a room.
+          </p>
+          <p>
+            Example #2. A confirmation button has a misaligned text and it
+            doesn&#39;t seem to confirm any action: click
+            <strong>Give Us Your Feedback</strong>!
+          </p>
+        </aside>
+        <h2 is-upgraded><strong>Name and Versions</strong></h2>
+        <p>
+          At the center is possible to see the name of the application, the
+          version and whether it is currently in beta or not.
+        </p>
+        <p class="image-container">
+          <img style="width: 566.93px" src="../guide/8eabeadf07cc59a9.png" />
+        </p>
+        <h2 is-upgraded><strong>Username and Logout</strong></h2>
+        <p>
+          On the right side you can see your own username and the logout button
+          with which you exit the application, going back to login.
+        </p>
+        <p class="image-container">
+          <img style="width: 566.93px" src="../guide/b0ff90c01a9eee6e.png" />
+        </p>
+      </google-codelab-step>
+
+      <google-codelab-step label="First Column: Offices" duration="1">
+        <p>
+          On the first column on the left you can read information regarding the
+          head office and the room currently selected.
+        </p>
+        <p class="image-container">
+          <img style="width: 245.67px" src="../guide/a2d2a1723820cc87.png" />
+        </p>
+        <h2 is-upgraded><strong>Selecting Head office and Room</strong></h2>
+        <p>
+          You can expand the list of the rooms by using the relative tabs.
+          Selecting a room automatically selects the head office to which it
+          belongs. For every room are displayed:
+        </p>
+        <ul>
+          <li>
+            <strong>Description</strong>: Usually the floor on which it is
+            located inside the head office.
+          </li>
+          <li>
+            <strong>Capacity</strong>: The total number of the people that can
+            occupy the room.
+          </li>
+          <li>
+            <strong>Monitor icon</strong>: Indicates whether or not there is a
+            monitor inside the room based on whether or not the icon is
+            activated.
+          </li>
+          <li>
+            <strong>Projector icon:</strong> Indicates whether or not there is a
+            projector inside the room based on whether or not the icon is
+            activated.
+          </li>
+        </ul>
+        <p>
+          When a room is selected, the upper part of the column is updated with
+          the information relative to the choice just made.
+        </p>
+        <h2 is-upgraded>Favourites</h2>
+        <p>
+          Next to the name of each room there is a heart - shaped icon (🤍),
+          through which is possible to add the selected room to your
+          <strong>list of favourites</strong>. This latter is displayed as an
+          expandable add-on tab just above the head offices tabs.
+        </p>
+        <p>
+          A room can be removed from the favourites list by clicking on the
+          cross-shaped button present on the left side of room name.
+        </p>
+        <p class="image-container">
+          <img style="width: 302.36px" src="../guide/db70e895c9c2edc5.png" />
+        </p>
+        <p>
+          To the right of each favourite room is shown an abbreviation of the
+          head office where it is located in order to avoid misunderstandings
+          between homonymous rooms.
+        </p>
+      </google-codelab-step>
+
+      <google-codelab-step label="Second Column: Calendar" duration="1">
+        <p>
+          In the foreground, in the second column, there are the current day and
+          date.
+        </p>
+        <p class="image-container">
+          <img style="width: 207.87px" src="../guide/3620dc8ebcf07a63.png" />
+        </p>
+        <h2 is-upgraded>Selecting the date</h2>
+        <p>
+          In this section there is a list of dates. By selecting a specific
+          date, you can see its details. The date format is dd/mm/yyyy followed
+          by the name of the day of the week.
+        </p>
+        <p>
+          Weeks are seperated from each other by a horizontal line. Saturday and
+          Sunday are slightly darkened in order to give more relevance to
+          working days.
+        </p>
+        <p>
+          When a date is selected, the upper part of the column is updated with
+          the information relative to the choice just made.
+        </p>
+      </google-codelab-step>
+
+      <google-codelab-step label="Third Column: Schedule" duration="1">
+        <p>
+          In the third column you can read information relative to the currently
+          selected room reservation limits. In particular the
+          <strong>minimum</strong> and <strong>maximum</strong> duration of the
+          reservation.
+        </p>
+        <p class="image-container">
+          <img style="width: 226.77px" src="../guide/7dec2cfaf52afec5.png" />
+        </p>
+        <h2 is-upgraded>Selecting a Reservation Slot</h2>
+        <p>
+          In the central part of the column there is a table with three columns
+          and seven rows whose cells include the start and end time of the
+          <strong>slot</strong>.
+        </p>
+        <p>
+          Slots with a dark color are <strong>disactivated</strong> and
+          can&#39;t be selected. These slots are being disactivated when they
+          refer to time slots that can&#39;t be booked or to a time period that
+          has passed.
+        </p>
+        <p>
+          It is possible to select the <strong>active</strong> slots by clicking
+          on them. You notice the selection thanks to a change of color and
+          outline thickness. In order to correctly complete a reservation, it is
+          necessary to <strong>select</strong> a slot in a valid way.
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota: </strong>The <em>validity</em> consists of selecting
+            contiguous slots, i.e. not selecting a slot between two already
+            selected. The <em>validity</em> is also given by respecting the
+            constraints at the top of the column (already indicated above).
+          </p>
+        </aside>
+        <aside class="warning">
+          <p>
+            <strong>Caution: </strong>In case of violation of the selection
+            validity, an information message will appear at the bottom left with
+            the information necessary for correction. Until the selection is
+            valid, it will not be possible to confirm the reservation.
+          </p>
+        </aside>
+        <h2 is-upgraded><strong>Table Consultation</strong></h2>
+        <ul>
+          <li>
+            From the table you can also see the reservations. The reservations
+            of other users differ from yours because of the different color.
+          </li>
+          <li>
+            Hovering the mouse over a reservation will highlight the slots it
+            includes.
+          </li>
+          <li>
+            Clicking on a reservation opens a dialog contaning the
+            <strong>details</strong> of it. The details consist of:
+          </li>
+          <li>
+            <strong>Description</strong>: a brief description added by the user
+            at the time of the reservation
+          </li>
+          <li>
+            <strong>Guests list</strong>: list of the e-mails related to the
+            guests of the reservation
+          </li>
+          <li>
+            <strong>Participants list</strong>: list of e-mails related to the
+            guests that have confirm their presence through the confirmation
+            e-mail.
+          </li>
+        </ul>
+        <p class="image-container">
+          <img style="width: 226.77px" src="../guide/c70438f0683995ed.png" />
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota: </strong>When a reservation on the table is green it
+            means that it is confirmed, in other words it has reached the
+            minimun number of participants required in order not to be
+            cancelled.
+          </p>
+          <p class="image-container">
+            <img style="width: 212.79px" src="../guide/7b414dd4704c2e79.png" />
+          </p>
+        </aside>
+        <h2 is-upgraded>Switch Time Slots and Shifts</h2>
+        <p>
+          It has been introduced and made more visible a switch useful for those
+          who work on shifts (e.g. service desk). We then move on to the display
+          of the shifts that can be booked on the typical eight-hour shifts. The
+          logic remains the same as before: you can, of course, book only future
+          slots and not already booked.
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota:</strong> This mode is visible only for reservations
+            related to rooms with duration of maximum or equal to 8 hours. It
+            doesn&#39;t appear for the rest. (If you want to try, select Sorint
+            Hall room).
+          </p>
+        </aside>
+        <p class="image-container">
+          <img style="width: 566.93px" src="../guide/36f7e761931daa9e.png" />
+        </p>
+        <h2 is-upgraded>Invitations Section</h2>
+        <p>
+          Under the time slots table there is the part of the invitations. Here
+          you can view the <strong>minimum number</strong> of invitations needed
+          to complete the reservation and the <strong>maximum</strong> number of
+          guests for the selected room.
+        </p>
+        <p class="image-container">
+          <img style="width: 359.06px" src="../guide/1a031617f9b830cc.png" />
+        </p>
+        <p>
+          You can add a person to be invited by inserting the
+          <strong>name</strong> and a <strong>valid e-mail address</strong> in
+          the appropriate fields (orange box), and clicking the button
+          &#34;✚&#34; present on the right side of the box. Once the invitation
+          is successfully completed, the name and the e-mail can be viewed in a
+          list below.
+        </p>
+        <p>
+          It is possible to remove the invitation from this list through the
+          button 🗑 present on the right side.
+        </p>
+        <p>
+          It is also possible to delete the creator of the reservation from the
+          guests list: in other terms you create reservations on behalf of other
+          colleagues.
+        </p>
+        <p class="image-container">
+          <img style="width: 359.06px" src="../guide/2f3c1b51f2216346.png" />
+        </p>
+        <aside class="warning">
+          <p>
+            <strong>Caution: </strong>It is not possible to create reservations
+            without guests.
+          </p>
+        </aside>
+        <h2 is-upgraded>Reservation Description</h2>
+        <p>
+          Below the invitation section there is a text box in which you can
+          specify a description for your reservation.
+        </p>
+        <aside class="warning">
+          <p>
+            <strong>Caution: </strong>The description will be visible to all
+            users once the reservation is completed.
+          </p>
+        </aside>
+        <p>
+          If a description has already been specified and you want to change
+          room or date, the description will be saved and then resumed when a
+          valid slot selection is made.
+        </p>
+        <h2 is-upgraded>Reservation Confirm</h2>
+        <p>
+          If the reservation is valid and respects all requirements the
+          <strong>Confirm</strong> button is going to be activated, which can be
+          disabled in case of any changes that invalidate the reservation.
+        </p>
+        <p>
+          Once the reservation is confirmed, a message is displayed at the
+          bottom right that informs you about the result of the reservation. At
+          this point a confirmation e-mail is sent to <strong>all</strong> the
+          participants in the meeting.
+        </p>
+        <h2 is-upgraded>Confirmation e-mail</h2>
+        <p>
+          When a user completes a reservation or is invited by another user,
+          he/she receives an e-mail, to the address indicated by the person who
+          has booked the room, containing the <strong>details</strong> of the
+          reservation and the possibility to <strong>confirm</strong> his/her
+          presence.
+        </p>
+        <p class="image-container">
+          <img style="width: 601.70px" src="../guide/e551ad209818db8.png" />
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota: </strong>Once the <strong>minimum number</strong> of
+            participants has been reached, the reservation is automatically
+            confirmed.
+          </p>
+        </aside>
+        <h2 is-upgraded>Limit of Reservations</h2>
+        <p>
+          At the bottom of the column there is a message that indicates how many
+          more reservations can be completed. If you wish to proceed with
+          another reservation, despite you head reached the maximum number of
+          reservations (per day and room), it is necessary to delete one of the
+          reservations already made, in order to proceed with another one.
+        </p>
+        <p class="image-container">
+          <img style="width: 491.34px" src="../guide/add891bb38f66dbe.png" />
+        </p>
+      </google-codelab-step>
+
+      <google-codelab-step
+        label="Fourth Column: My Reservations - NEWS!"
+        duration="1"
+      >
+        <p>
+          In the fourth column you can read information regarding the number of
+          reservations completed.
+        </p>
+        <p class="image-container">
+          <img style="width: 491.34px" src="../guide/4723c99fbabb762.png" />
+        </p>
+        <h2 is-upgraded>Reservation card</h2>
+        <p>
+          There is a card for each reservation made that contains details of the
+          same. You can see the <strong>date</strong>, the
+          <strong>description</strong>, the start and end
+          <strong>time</strong> and the <strong>room</strong> booked.
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota: </strong>The end <strong>time</strong> of the
+            reservation is indicated 15 minutes before the reserved time. This
+            advance is <em>necessary</em> to comply with
+            <strong>safety regulations</strong> due to the current health
+            emergency situation.
+          </p>
+        </aside>
+        <p>
+          The reservation not yet confirmed will have an <em>orange</em> color,
+          while it will change to <em>green</em> once the
+          <strong>minimum</strong> number of participants is reached.
+        </p>
+        <h2 is-upgraded><strong>Modify Reservation</strong></h2>
+        <p>
+          Once the reservation has been completed, it will be possible to modify
+          the description through the 🖉 edit button that is on the card. By
+          clicking on the button, the description will become an
+          <em>editable</em> field. At the end of the modification it is
+          necessary to <strong>confirm</strong> the changes by clicking on the
+          🖪Save button that will appear instead of the 🖉 edit button used
+          before.
+        </p>
+        <h2 is-upgraded>Reservation details - NEWS!</h2>
+        <p>
+          The reservation card includes the button which in the foreground opens
+          a window through which you can see detailed information regarding a
+          specific reservation: <strong>description</strong>,
+          <strong>pending</strong> invitations and the list of the users that
+          have already <strong>accepted</strong> the invitation to access the
+          reserved room.
+        </p>
+        <p>
+          <strong>NEWS!</strong> E&#39; possibile aggiungere nuovi partecipanti
+          anche se la prenotazione è già stata creata.
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota:</strong> A colleague invited to make a reservation can
+            no longer participate in the reserved meeting in presence. We want
+            someone to replace him: you directly add the new guest by going to
+            MyReservation&gt; Edit&gt; Pending&gt; ⊕ button.
+          </p>
+        </aside>
+        <p class="image-container">
+          <img style="width: 587.00px" src="../guide/b39aec2526513860.png" />
+        </p>
+        <aside class="special">
+          <p>
+            <strong>Nota: </strong>The same window can be also displayed by
+            clicking on a reserved time slot from the calendar column.
+          </p>
+          <p class="image-container">
+            <img style="width: 216.57px" src="../guide/660cde1f044cf9b3.png" />
+          </p>
+          <p>
+            When the mouse pointer is over a reserved slot (without clicking on
+            it), the slot will turn purple. If the slot is clicked, then the
+            details window opens.
+          </p>
+        </aside>
+        <h2 is-upgraded>Delete reservation</h2>
+        <p>
+          Next to the Edit button there is a button 🗑for deleting the
+          reservation. Once pressed it will be necessary to confirm your choice.
+          If confirmed, the reservation is going to be
+          <strong>deleted</strong> and the occupied slots will be
+          <strong>available</strong> again.
+        </p>
+        <p class="image-container">
+          <img style="width: 519.50px" src="../guide/a00f5429a474670a.png" />
+        </p>
+        <aside class="warning">
+          <p>
+            <strong>Caution: </strong>It is not possible to delete a reservation
+            that has already started.
+          </p>
+        </aside>
+      </google-codelab-step>
+    </google-codelab>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
-};
+export default {};
 </script>
+
+<style lang="scss" scoped>
+#guide {
+  height: 100vh;
+  text-align: left;
+}
+
+.success {
+  color: #1e8e3e;
+}
+
+.error {
+  color: red;
+}
+</style>
